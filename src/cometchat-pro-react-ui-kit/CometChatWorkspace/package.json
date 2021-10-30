@@ -5,7 +5,7 @@
 	"author": "CometChat",
 	"dependencies": {
 		"@cometchat-pro/chat": "3.0.0",
-		"@emotion/core": "^11.0.0",
+		"@emotion/react": "^11.0.0",
 		"dateformat": "^4.0.0",
 		"emoji-mart": "^3.0.0",
 		"react": "^17.0.2",

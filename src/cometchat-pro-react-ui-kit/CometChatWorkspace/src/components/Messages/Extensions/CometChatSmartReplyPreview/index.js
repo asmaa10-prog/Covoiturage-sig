@@ -2,7 +2,7 @@ import { useContext } from 'react';
 
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, keyframes } from '@emotion/core';
+import { jsx, keyframes } from '@emotion/react';
 import PropTypes from 'prop-types';
 
 import { CometChatContext } from "../../../../util/CometChatContext";

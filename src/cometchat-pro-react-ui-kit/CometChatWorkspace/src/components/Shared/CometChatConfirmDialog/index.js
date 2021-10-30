@@ -1,7 +1,7 @@
 import React from "react";
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import {jsx} from "@emotion/core";
+import {jsx} from "@emotion/react";
 
 import { CometChatBackdrop } from "../";
 import Translator from "../../../resources/localization/translator";
