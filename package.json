@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@cometchat-pro/chat": "^3.0.1",
-    "@emotion/react": "10.1.1",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "10.0.3",
     "@projectstorm/react-diagrams": "^6.0.1-beta.7",
