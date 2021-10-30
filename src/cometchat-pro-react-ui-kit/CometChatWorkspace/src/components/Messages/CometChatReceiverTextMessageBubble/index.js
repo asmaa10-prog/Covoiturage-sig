@@ -1,7 +1,7 @@
 import React from "react";
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import twemoji from "twemoji";
 import ReactHtmlParser from "react-html-parser";
 import PropTypes from "prop-types";

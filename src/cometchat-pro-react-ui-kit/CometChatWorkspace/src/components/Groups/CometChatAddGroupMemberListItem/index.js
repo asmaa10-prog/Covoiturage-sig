@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import PropTypes from "prop-types";
 
 import { CometChatAvatar, CometChatUserPresence } from "../../Shared";

@@ -1,7 +1,7 @@
 import React from "react";
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 
 import { CometChatContext } from "../../../util/CometChatContext";
 import { CometChatAvatar, CometChatUserPresence } from "../../Shared";

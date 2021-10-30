@@ -3,7 +3,7 @@ import twemoji from "twemoji";
 import ReactHtmlParser from "react-html-parser";
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import PropTypes from "prop-types";
 import { CometChat } from "@cometchat-pro/chat";
 
