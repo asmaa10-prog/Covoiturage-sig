@@ -17,6 +17,8 @@ const style = {
   height: "100vh"
 };
 
+
+
 function Home() {
 
   const { selectedFrom, selectedTo, user, currentRide } = useContext(Context);
