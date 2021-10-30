@@ -7,6 +7,7 @@ import RideList from './RideList';
 import RideDetail from './RideDetail';
 // import Context
 import Context from '../Context';
+import "leaflet/dist/leaflet.css";
 // import leaflet
 import L from "leaflet";
 
