@@ -8,6 +8,8 @@ import RideDetail from './RideDetail';
 // import Context
 import Context from '../Context';
 import "leaflet/dist/leaflet.css";
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 // import leaflet
 import L from "leaflet";
 
@@ -31,6 +33,12 @@ function Home() {
     initMap();
     initRouteControl();
   }, []);
+  let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
 
   const drawRoute = useCallback((from, to) => {
     if (shouldRouteDrawed(from, to) && routeControl && routeControl.current) {
