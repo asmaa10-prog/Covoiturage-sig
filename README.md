@@ -27,7 +27,7 @@ yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch l
 - Créer un compte sur [ComeChatPro](https://www.cometchat.com/pro)
 - Ajouter un projet sur votre [tableau de bord](https://app.cometchat.com/apps)
 
-- ![Cometchat](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Cometchat.PNG)
+![Cometchat](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Cometchat.PNG)
 
 - À partir du Quick Start, copiez APP_ID, REGION et AUTH_KEY, qui seront utilisés plus tard. Puis, copiez REST_API_KEY à partir de l'onglet API & Auth Keys.
 - Accédez à l'onglet "Users tab" et supprimez tous les utilisateurs et groupes par défaut.
@@ -58,7 +58,7 @@ Vous aurez la structure de projet suivante
 ![structure3](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Structure3.PNG)
 ## 8. Mettre en oeuvre votre environnement
 - Créez un fichier appelé ".env" dans le dossier racine de votre projet.
--Importez et injectez vos clés secrètes dans le fichier .env contenant votre CometChat et Firebase de cette manière.
+- Importez et injectez vos clés secrètes dans le fichier .env contenant votre CometChat et Firebase de cette manière.
 ```
 REACT_APP_FIREBASE_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_FIREBASE_AUTH_DOMAIN=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
@@ -80,7 +80,7 @@ yarn start
 ```
 Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans le navigateur.
 
-La page se rechargera si vous apportez des modifications et vous verrez également toutes les erreurs de charpie dans la console.
+La page se rechargera si vous apportez des modifications et vous verrez également toutes les erreurs dans la console.
 
 Et voilà, votre application de covoiturage est fonctionnelle! 🎉
 
