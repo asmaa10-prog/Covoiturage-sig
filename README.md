@@ -11,7 +11,7 @@ Les services proposés par cette application sont:
 - **Le Matching** : L’utilisateur lui sera attribué un chauffeur.
 - **Chat** : Entre temps, les deux parties peuvent se connecter.
 
-Vous pouvez trouver une vidéo démonstrative pour mieux comprendre le fonctionnement de l'application [![ici](https://i.imgur.com/vKb2F1B.png)](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/Demo.mp4)
+Vous pouvez trouver une vidéo démonstrative pour mieux comprendre le fonctionnement de l'application [![ici]](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/Demo.mp4)
 
 # Comment exécuter ce projet sur votre machine
 ## 1. Installer [NodeJS](https://nodejs.org/en/).
