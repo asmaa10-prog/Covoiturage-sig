@@ -47,7 +47,8 @@ yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch l
 - Les images ci-dessous illustrent la structure des données de l'application. Un utilisateur doit avoir un avatar, un e-mail, un identifiant, un numéro de téléphone et un rôle (rôle utilisateur ou rôle pilote).
 ![Firebase3](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase3.PNG)
 ![Firebase5](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase5.PNG)
-Un trajet doit contenir des informations sur la destination, le lieu de prise en charge, le chauffeur, le demandeur et l'identifiant du trajet. Le champ d'état indique l'état du trajet. Si le statut est 0, cela signifie qu'un utilisateur attend un pilote. Ensuite, si le statut est 1, cela signifie que le trajet a été accepté par un conducteur. De plus, si le statut est -1, le trajet a été annulé. Le dernier mais non le moindre, si le statut est 1, le trajet est terminé.
+
+Un trajet doit contenir des informations sur la destination, le lieu de prise en charge, le chauffeur, le demandeur et l'identifiant du trajet. Le champ d'état indique l'état du trajet. Si le statut est 0, cela signifie qu'un utilisateur attend un conducteur. Ensuite, si le statut est 1, cela signifie que le trajet a été accepté par un conducteur. De plus, si le statut est -1, le trajet a été annulé. Sinon, si le statut est 1, le trajet est terminé.
 ![Firebase4](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase4.PNG)
 ## 7.Cloner le code source et l'installer sur votre machine
 Vous aurez la structure de projet suivante
