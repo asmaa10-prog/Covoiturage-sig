@@ -1,6 +1,7 @@
 
 # Description du projet 
 Carpool est une application qui vous aide à trouver des covoiturages pour vos trajets quotidiens.
+
 Pour sa réalisation, nous nous sommes basés sur des **APIs existants**.
 
 Les services proposés par cette application sont:
@@ -10,7 +11,7 @@ Les services proposés par cette application sont:
 - **Le Matching** : L’utilisateur lui sera attribué un chauffeur.
 - **Chat** : Entre temps, les deux parties peuvent se connecter.
 
-Vous pouvez trouver une vidéo démonstrative pour mieux comprendre le fonctionnement de l'application ![ici](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/Demo.mp4)
+Vous pouvez trouver une vidéo démonstrative pour mieux comprendre le fonctionnement de l'application [![ici](https://i.imgur.com/vKb2F1B.png)](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/Demo.mp4)
 
 # Comment exécuter ce projet sur votre machine
 ## 1. Installer [NodeJS](https://nodejs.org/en/).
@@ -18,7 +19,7 @@ Vous pouvez trouver une vidéo démonstrative pour mieux comprendre le fonctionn
 ```
 npx create-react-app nom-projet
 ```
-## 3. Installer les suivantes : CometChat Pro, Firebase, Validator, Uuid, Leaflet, Leaflet-GeoSearch, Leaflet-Routing-Machine.
+## 3. Installer les dépendances suivantes : CometChat Pro, Firebase, Validator, Uuid, Leaflet, Leaflet-GeoSearch, Leaflet-Routing-Machine.
 ```
 yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch leaflet-routing-machine
 ```
