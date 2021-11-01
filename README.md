@@ -24,13 +24,15 @@ npx create-react-app nom-projet
 yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch leaflet-routing-machine
 ```
 ###### 4. Configurer CometChat SDK
-- Créer un compte sur [ComeChatPri](https://www.cometchat.com/pro)
+- Créer un compte sur [ComeChatPro](https://www.cometchat.com/pro)
 - Ajouter un projet sur votre [tableau de bord](https://app.cometchat.com/apps)
 - À partir du Quick Start, copiez APP_ID, REGION et AUTH_KEY, qui seront utilisés plus tard. Puis, copiez REST_API_KEY à partir de l'onglet API & Auth Keys.
 - Accédez à l'onglet "Users tab" et supprimez tous les utilisateurs et groupes par défaut.
 ###### 5. Configurer Mapbox
 - Créez un compte sur [Mapbox](https://www.mapbox.com/)
 - Vous serez maintenant redirigé vers la page dans laquelle vous verrez le "public token" par défaut.
+- Mapbox
+- ![Mapbox](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Mapbox.PNG)
 ###### 6. Configurer votre projet sur Firebase 
 - Pour commencer à utiliser Firebase, vous aurez besoin d'un compte Gmail. 
 - Vous pouvez maintenant créer votre projet sur firebase.
