@@ -4,8 +4,6 @@ import { useContext } from 'react';
 import Context from '../Context';
 // import react router
 import { useHistory } from 'react-router-dom';
-// import logo white
-import logoWhite from '../logo_white.png';
 
 function Header() {
   const { user, setUser } = useContext(Context);

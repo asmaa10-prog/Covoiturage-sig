@@ -11,8 +11,6 @@ import withModal from "./Modal";
 import SignUp from "./SignUp";
 // import history
 import { useHistory } from 'react-router-dom';
-// import logo 
-import logoBlack from '../logo_black.png';
 
 function Login(props) {
   // get shared data from context.
