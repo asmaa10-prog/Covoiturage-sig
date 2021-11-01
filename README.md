@@ -35,11 +35,15 @@ yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch l
 - Créez un compte sur [Mapbox](https://www.mapbox.com/)
 - Vous serez maintenant redirigé vers la page dans laquelle vous verrez le "public token" par défaut.
 - Mapbox
-- ![Mapbox](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Mapbox.PNG)
+![Mapbox](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Mapbox.PNG)
 ## 6. Configurer votre projet sur Firebase 
 - Pour commencer à utiliser Firebase, vous aurez besoin d'un compte Gmail. 
 - Vous pouvez maintenant créer votre projet sur firebase.
+
+![Firebase1](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase1.PNG)
 - Activer l'authentification Firebase avec e-mail et mot de passe.
+
+![Firebase2](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase2.PNG)
 - Les images ci-dessous illustrent la structure des données de l'application. Un utilisateur doit avoir un avatar, un e-mail, un identifiant, un numéro de téléphone et un rôle (rôle utilisateur ou rôle pilote).
 Structure des données - Utilisateur
 Un trajet doit contenir des informations sur la destination, le lieu de prise en charge, le chauffeur, le demandeur et l'identifiant du trajet. Le champ d'état indique l'état du trajet. Si le statut est 0, cela signifie qu'un utilisateur attend un pilote. Ensuite, si le statut est 1, cela signifie que le trajet a été accepté par un conducteur. De plus, si le statut est -1, le trajet a été annulé. Le dernier mais non le moindre, si le statut est 1, le trajet est terminé.
@@ -77,7 +81,7 @@ La page se rechargera si vous apportez des modifications et vous verrez égaleme
 
 Et voilà, votre application de covoiturage est fonctionnelle! 🎉
 
-:exclamation: **Problèmes non résolus : ** Un point négatif pour ce projet est la fait qu'on a utilisé un API pour spécifier et dessiner le chemin entre entre la position et la destination mais on n'est pas arrivé à faire le tracking entre ses positions :exclamation:
+:exclamation: **Problèmes non résolus :** Un point négatif pour ce projet est la fait qu'on a utilisé un API pour spécifier et dessiner le chemin entre entre la position et la destination mais on n'est pas arrivé à faire le tracking entre ses positions.
 
-:sparkles:  **Bonus : ** Ce projet a été sauvegardé sous forme d'image docker :whale: pour l'utiliser en tant que service directement 
+:sparkles:  **Bonus :** Ce projet a été sauvegardé sous forme d'image docker :whale: pour l'utiliser en tant que service directement .
 
