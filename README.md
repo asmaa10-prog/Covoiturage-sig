@@ -37,7 +37,7 @@ yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch l
 - Mapbox
 ![Mapbox](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Mapbox.PNG)
 ## 6. Configurer votre projet sur Firebase 
-- Pour commencer à utiliser Firebase, vous aurez besoin d'un compte Gmail. 
+- Pour commencer à utiliser [Firebase](https://firebase.google.com/), vous aurez besoin d'un compte Gmail. 
 - Vous pouvez maintenant créer votre projet sur firebase.
 
 ![Firebase1](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase1.PNG)
@@ -45,8 +45,10 @@ yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch l
 
 ![Firebase2](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase2.PNG)
 - Les images ci-dessous illustrent la structure des données de l'application. Un utilisateur doit avoir un avatar, un e-mail, un identifiant, un numéro de téléphone et un rôle (rôle utilisateur ou rôle pilote).
-Structure des données - Utilisateur
+![Firebase3](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase3.PNG)
+![Firebase5](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase5.PNG)
 Un trajet doit contenir des informations sur la destination, le lieu de prise en charge, le chauffeur, le demandeur et l'identifiant du trajet. Le champ d'état indique l'état du trajet. Si le statut est 0, cela signifie qu'un utilisateur attend un pilote. Ensuite, si le statut est 1, cela signifie que le trajet a été accepté par un conducteur. De plus, si le statut est -1, le trajet a été annulé. Le dernier mais non le moindre, si le statut est 1, le trajet est terminé.
+![Firebase4](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Firebase4.PNG)
 ## 7.Cloner le code source et l'installer sur votre machine
 Vous aurez la structure de projet suivante
 
