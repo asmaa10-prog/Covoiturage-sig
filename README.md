@@ -40,7 +40,9 @@ Structure des données - Utilisateur
 Un trajet doit contenir des informations sur la destination, le lieu de prise en charge, le chauffeur, le demandeur et l'identifiant du trajet. Le champ d'état indique l'état du trajet. Si le statut est 0, cela signifie qu'un utilisateur attend un pilote. Ensuite, si le statut est 1, cela signifie que le trajet a été accepté par un conducteur. De plus, si le statut est -1, le trajet a été annulé. Le dernier mais non le moindre, si le statut est 1, le trajet est terminé.
 ###### 7.Cloner le code source et l'installer sur votre machine
 Vous aurez la structure de projet suivante
-![structure1](https://myoctocat.com/assets/images/base-octocat.svg)
+![structure1](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Structure1.PNG)
+![structure2](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Structure2.PNG)
+![structure3](https://github.com/asmaa10-prog/Covoiturage-sig/blob/main/images/Structure3.PNG)
 ###### 8. Mettre en oeuvre votre environnement
 - Créez un fichier appelé ".env" dans le dossier racine de votre projet.
 -Importez et injectez vos clés secrètes dans le fichier .env contenant votre CometChat et Firebase de cette manière.
