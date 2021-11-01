@@ -30,7 +30,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <img src={logoWhite} alt="Uber Clone" />
+        <p>Carpool</p>
         {
           user && (
             <div className="header__right">
