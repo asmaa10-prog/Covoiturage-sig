@@ -60,20 +60,14 @@ REACT_APP_COMETCHAT_AUTH_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_COMETCHAT_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_MAP_BOX_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 ```
+###### 9.  Executer et tester
+Maintenant, il ne reste que d'éxécuter l'application en mode développement par la commande
+```
+yarn start
+```
+Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans le navigateur.
 
+La page se rechargera si vous apportez des modifications et vous verrez également toutes les erreurs de charpie dans la console.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-
-
-
-# Covoiturage-sig
-
-# Covoiturage-sig
+Et voilà, votre application de covoiturage est fonctionnelle! 🎉
 
