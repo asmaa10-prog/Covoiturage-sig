@@ -35,19 +35,57 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Description du projet 
 Carpool est une application qui vous aide à trouver des covoiturages pour vos trajets quotidiens.
 Pour sa réalisation, nous nous sommes basés sur des **APIs existants**.
+
 Les services proposés par cette application sont:
 - **L'authentification** : L’utilisateur s’authentifie en tant qu’un simple utilisateur ou un chauffeur.
 - **La Recherche d’un Covoiturage** : L’utilisateur précise sa position et sa destination.
 - **La Proposition d’un Covoiturage** : Le chauffeur propose un trajet vers une destination précise.
 - **Le Matching** : L’utilisateur lui sera attribué un chauffeur.
 - **Chat** : Entre temps, les deux parties peuvent se connecter.
+- 
+Vous pouvez trouver une vidéo démonstrative pour mieux comprendre le fonctionnement de l'application ici.
 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Comment exécuter ce projet sur votre machine
+###### 1. Installer [NodeJS](https://nodejs.org/en/).
+###### 2. Créer un nouveau projet react 
+```
+npx create-react-app nom-projet
+```
+###### 3. Installer les suivantes : CometChat Pro, Firebase, Validator, Uuid, Leaflet, Leaflet-GeoSearch, Leaflet-Routing-Machine.
+```
+yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch leaflet-routing-machine
+```
+###### 4. Configurer CometChat SDK
+- Créer un compte sur [ComeChatPri](https://www.cometchat.com/pro)
+- Ajouter un projet sur votre [tableau de bord](https://app.cometchat.com/apps)
+- À partir du Quick Start, copiez APP_ID, REGION et AUTH_KEY, qui seront utilisés plus tard. Puis, copiez REST_API_KEY à partir de l'onglet API & Auth Keys.
+- Accédez à l'onglet "Users tab" et supprimez tous les utilisateurs et groupes par défaut.
+- Créez un fichier appelé ".env" dans le dossier racine de votre projet.
+-Importez et injectez vos clés secrètes dans le fichier .env contenant votre CometChat et Firebase de cette manière.
+```
+REACT_APP_FIREBASE_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_FIREBASE_AUTH_DOMAIN=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_FIREBASE_DATABASE_URL=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_FIREBASE_STORAGE_BUCKET=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_FIREBASE_PROJECT_ID=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+REACT_APP_COMETCHAT_APP_ID=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_COMETCHAT_REGION=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_COMETCHAT_AUTH_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_COMETCHAT_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+REACT_APP_MAP_BOX_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+```
+###### 5. Configurer Mapbox
+- Créez un compte sur [Mapbox](https://www.mapbox.com/)
+- Vous serez maintenant redirigé vers la page dans laquelle vous verrez le "public token" par défaut.
+###### 6. Configurer votre projet sur Firebase 
+- Pour commencer à utiliser Firebase, vous aurez besoin d'un compte Gmail. 
+- Vous pouvez maintenant créer votre projet sur firebase.
+- 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+
 
 ## Learn More
 
