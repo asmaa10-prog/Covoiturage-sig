@@ -28,7 +28,6 @@ yarn add @cometchat-pro/chat firebase uuid validator leaflet leaflet-geosearch l
 - Ajouter un projet sur votre [tableau de bord](https://app.cometchat.com/apps)
 - À partir du Quick Start, copiez APP_ID, REGION et AUTH_KEY, qui seront utilisés plus tard. Puis, copiez REST_API_KEY à partir de l'onglet API & Auth Keys.
 - Accédez à l'onglet "Users tab" et supprimez tous les utilisateurs et groupes par défaut.
-```
 ###### 5. Configurer Mapbox
 - Créez un compte sur [Mapbox](https://www.mapbox.com/)
 - Vous serez maintenant redirigé vers la page dans laquelle vous verrez le "public token" par défaut.
@@ -57,7 +56,7 @@ REACT_APP_COMETCHAT_REGION=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_COMETCHAT_AUTH_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_COMETCHAT_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_MAP_BOX_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
-
+```
 
 
 ### `yarn start`
